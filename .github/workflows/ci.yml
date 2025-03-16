@@ -27,3 +27,8 @@ jobs:
       - run: npm i
 
       - run: npx nx run frontend:build
+
+      - run: |
+          ls -l
+          tree apps
+          tree dist
