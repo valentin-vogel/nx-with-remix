@@ -31,4 +31,3 @@ jobs:
       - run: |
           ls -l
           tree apps
-          tree dist
