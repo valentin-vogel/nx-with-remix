@@ -7,20 +7,31 @@
   "devDependencies": {
     "@nx/js": "20.6.0",
     "@nx/remix": "^20.6.0",
+    "@nx/vite": "20.6.0",
     "@nx/web": "20.6.0",
     "@remix-run/dev": "^2.15.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.56.0",
     "nx": "20.6.0",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",
-    "typescript": "~5.7.2"
+    "typescript": "~5.7.2",
+    "vite": "^5.0.0"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "apps/frontend"
   ],
   "dependencies": {
-    "@remix-run/serve": "^2.15.0"
+    "@remix-run/node": "^2.15.0",
+    "@remix-run/react": "^2.15.0",
+    "@remix-run/serve": "^2.15.0",
+    "isbot": "^4.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
