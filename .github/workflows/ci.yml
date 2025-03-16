@@ -28,4 +28,4 @@ jobs:
 
       - uses: nrwl/nx-set-shas@v4
 
-      - run: npx nx frontend:build
+      - run: npx nx run frontend:build
